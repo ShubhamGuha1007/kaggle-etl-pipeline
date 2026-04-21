@@ -10,7 +10,7 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 - SQLAlchemy, pyodbc
 
 ## 🖼️ Architecture Diagram
-![ETL Pipeline](data/img.png)
+![ETL Pipeline](kaggle-etl-pipeline/data/img.png)
 
 ## 🔄 Pipeline Flow
 1. Extract data from Kaggle using API

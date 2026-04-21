@@ -9,9 +9,6 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 - SQL Server (SSMS)
 - SQLAlchemy, pyodbc
 
-## 🖼️ Architecture Diagram
-![ETL Pipeline](kaggle-etl-pipeline/data/img.png)
-
 ## 🔄 Pipeline Flow
 1. Extract data from Kaggle using API
 2. Transform data using pandas (cleaning, formatting)
@@ -23,6 +20,10 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 - `transform.py` → Clean and preprocess data
 - `load.py` → Load data into SQL Server
 - `analysis.sql` → SQL queries for insights
+
+
+## 🖼️ Architecture Diagram
+![ETL Pipeline](kaggle-etl-pipeline/data/img.png)
 
 ## ▶️ How to Run
 1. Install dependencies:
